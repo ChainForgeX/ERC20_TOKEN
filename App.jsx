@@ -1,8 +1,8 @@
-import Staking from "./Staking";
+import Token from "./Token";
 
 function App(){
   return(
-    <Staking />
+    <Token />
   );
 }
 
