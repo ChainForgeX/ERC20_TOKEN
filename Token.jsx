@@ -9,7 +9,7 @@ function Token(){
     const[spender, setSpender] = useState("");
     const[allowance, setAllowance] = useState("");
 ;
-    const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+    const contractAddress = "CONTRACT ADDRESS";
 
     const getBalance = async() =>{
         const provider = new ethers.BrowserProvider(window.ethereum);
